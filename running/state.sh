@@ -1,5 +1,10 @@
-#!/bin/sh -x
+#!/bin/sh
 
-/a.out &
+echo -n "Starting process-fun... "
+process-fun &
+echo "done!"
+
 sleep 2
-ps -o pid,ppid,pgid,stat,comm
+
+echo "Process list:"
+ps -o pid,ppid,pgid,sess,stat,comm

@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 int main(int argc, char *argv[]) {
-    // wait for input
+    // wait
     sleep(10);
 
     // exit ok

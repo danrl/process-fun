@@ -2,7 +2,7 @@
 #include <time.h>
 
 int main(int argc, char *argv[]) {
-    // run for 5 seconds
+    // run for 10 seconds
     time_t end = time(0) + 10;
 
     // do something

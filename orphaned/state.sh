@@ -6,7 +6,7 @@ echo "done!"
 
 sleep 2
 
-echo "Process list (before orhpaned):"
+echo "Process list (before orphaned):"
 ps -o pid,ppid,pgid,sess,stat,comm
 
 sleep 10
